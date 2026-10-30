@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+span{
+    font-weight: bold;
+}
+
+header{
+    background: linear-gradient(180deg, #6da67a, #77b885, #86c28b, #859987, #4a4857);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100px;
+    border-bottom: 2px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.div-apresentação{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.foto-pessoal{
+    height: 100px;
+    border: 3px solid goldenrod;
+}
+
+.menu{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.nav-opcao{
+    text-decoration: none;
+    color: white;
+    border: solid black 2px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    transition: 0.5s ease;
+}
+
+.nav-opcao:hover{
+    background-color: grey
+}
+
+main{
+    background: whitesmoke;
+    text-align: justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 110%;
+}
+
+section{
+    height: 200px;
+    scroll-margin-top: 120px;
+}
+
+ul{
+    padding-left: 15px;
+}
+
+#texto-inicio{
+    border-radius: 5px;
+    border-width: 20px;
+    padding: 5px;
+    background: #9dbfaf;
+}
+
+#inicio{
+    background: #6da67a;
+    padding: 20px;
+}
+
+#habilidades{
+    background: #77b885;
+    padding: 20px;
+}
+
+.titulo{
+    text-shadow: -3px 3px 8px black;
+}

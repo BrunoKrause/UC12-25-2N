@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Aprendendo Flexbox</title>
+</head>
+<body>
+    <header>
+        <div class="div-apresentação">
+            <img src=logo.jpg alt="logo do site" class="logo-img">
+            <h1>Site Chave</h1>
+        </div>
+        <nav class="menu">
+            <a href="" class="nav-opcao">Home</a>
+            <a href="" class="nav-opcao">Contato</a>
+            <a href="" class="nav-opcao">Produtos</a>
+            <a href="" class="nav-opcao">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Início</h2>
+            <p>Bem-vindo à minha página!</p>
+        </section>
+    
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Um pouco sobre minha história.</p>
+        </section>
+
+        <section id="formulário">
+            <h2>Formulário de Contato</h2>
+
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <br>
+
+                <label for="origem">Como nos conheceu?</label>
+
+                <select id="origem" name="origem" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="internet">Internet</option>
+                    <option value="amigos">Amigos</option>
+                    <option value="redes">Redes sociais</option>
+                </select>
+
+                <br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </main>
+        
+        <footer>
+            <p>Todos os direitos reservados.</p>
+        </footer>
+</body>
+</html>

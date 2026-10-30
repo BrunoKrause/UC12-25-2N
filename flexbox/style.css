@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+header{
+    background: linear-gradient(90deg, green, yellow, blue) ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100px;
+}
+
+.menu{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.nav-opcao{
+    text-decoration: none;
+    color: white;
+    border: solid black 2px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    transition: 0.5s ease;
+}
+
+.nav-opcao:hover{
+    background-color: grey
+}
+
+h1{
+    background-color: transparent;
+}
+
+
+.div-apresentação{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+}
+
+.logo-img{
+    height: 100px;
+}
+
+.destaque-texto{
+    color: black;
+    font-weight: bold;
+}

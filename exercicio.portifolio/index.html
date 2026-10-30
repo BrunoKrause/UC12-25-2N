@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bruno Krause Noia da Costa</title>
+</head>
+<body>
+    <header>
+        <div class="div-apresentação">
+            <img src="../flexbox/logo.jpg" alt="Minha foto" class="foto-pessoal">
+            <h1>Bruno Krause Noia da Costa</h1>
+        </div>
+
+        <nav class="menu">
+            <a href="#inicio" class="nav-opcao">Home</a>
+            <a href="#habilidades" class="nav-opcao">Habilidades</a>
+            <a href="#projetos" class="nav-opcao">Projetos</a>
+            <a href="#contato" class="nav-opcao">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div>
+                <h1 class="titulo">BRUNO KRAUSE NOIA DA COSTA</h1>
+
+                <br>
+                
+                <p id="texto-inicio">Tenho 21 anos, atualmente trabalho na empresa Pulse Client Experts, empresa coligada do banco Santander, que opera como Central de Atendimento do banco, em resumo realizamos atendimento de ligações para solucionar problemas e temos a missão de converter tais ligações em vendas de produtos bancários.
+                <br>
+                Atualmente curso Técnico em Desenvolvimento de Sistemas pelo Senac São Leopoldo. Já trabalhei em diversas áreas diferentes em mundos opostos umas das outras.
+                <br>
+                Meus hobbys são principalmente <span>jogar Magic, jogar algo no computador, assistir séries e sair com amigos.</span>
+                </p>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2 class="titulo">HABILIDADES:</h2>
+
+            <br>
+
+            <ul>
+                <li><span>Facilidade no aprendizado</span></li>
+                <li>Persuação</li>
+                <li><span>Capacidade analítica</span></li>
+                <li>Generosidade</li>
+                <li>Pensamentos Rápidos</li>
+            </ul>
+        </section>
+        
+        <section id="projetos">
+            <h2 class="titulo">PROJETOS</h2>
+
+            <br>
+
+            <div id="projeto1">
+                <h3>Zelo</h3>
+                <p>O <span>Zelo</span> é um aplicativo que conecta cidadãos à prefeitura, permitindo registrar e acompanhar problemas urbanos, como buracos, árvores caídas e fios soltos, tornando a cidade mais segura, organizada e bem cuidada.</p>
+            </div>
+
+            <div id="projeto2">
+                <h3>Projeto de Programação Orientada a Objetos</h3>
+                <p>Projeto acadêmico de programação orientada a objetos, desenvolvido para aplicar conceitos como classes, objetos, métodos e encapsulamento, com foco na organização do código e na construção de um sistema funcional.</p>
+                <a href="https://github.com/BrunoKrause/UC4-25-2N-Orientacao-de-Objetos/tree/main/Trabalho1/src" rel="noopener noreferrer">Projeto de Orientação de Objetos</a>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2 class="titulo">FORUMULÁRIO DE CONTATO</h2>
+
+            <br>
+
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <br>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <br>
+
+                <label for="origem">Como nos conheceu?</label>
+
+                <select id="origem" name="origem" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="internet">Internet</option>
+                    <option value="amigos">Amigos</option>
+                    <option value="redes">Redes sociais</option>
+                </select>
+
+                <br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
