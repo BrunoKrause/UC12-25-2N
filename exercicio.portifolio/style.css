@@ -60,12 +60,12 @@ header{
 main{
     background: whitesmoke;
     text-align: justify;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 110%;
 }
 
 section{
-    height: 200px;
+    height: auto;
     scroll-margin-top: 120px;
 }
 
@@ -73,23 +73,83 @@ ul{
     padding-left: 15px;
 }
 
-#texto-inicio{
-    border-radius: 5px;
-    border-width: 20px;
-    padding: 5px;
-    background: #9dbfaf;
-}
-
 #inicio{
-    background: #6da67a;
+    background: linear-gradient(180deg,#4a4857, #859987, #86c28b, #77b885, #6da67a);
     padding: 20px;
 }
 
 #habilidades{
-    background: #77b885;
+    background: linear-gradient(180deg, #6da67a, #77b885, #86c28b, #859987, #4a4857);
     padding: 20px;
+}
+
+#projetos{
+    background: linear-gradient(180deg,#4a4857, #859987, #86c28b, #77b885, #6da67a);
+    padding: 20px;
+}
+
+a{
+    font-size: large;
+    color: black;
+    font-weight: bold;
 }
 
 .titulo{
     text-shadow: -3px 3px 8px black;
+}
+
+#contato{
+    background: linear-gradient(180deg, #6da67a, #77b885, #86c28b, #859987, #4a4857);
+    padding: 20px;
+}
+
+form {
+    background-color: #f5f5f5;
+    padding: 30px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+form h2 {
+    text-align: center;
+    color: #2563eb;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
 }
