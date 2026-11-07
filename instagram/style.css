@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+#div-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    gap: 5px;
+}
+
+#div-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+}
+
+.foto-sugestao{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 1px solid white;
+}
+
+#foto-perfil{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#div-stats{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    gap: 20px;    
+}
+
+#div-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-seguidores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-seguindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div-opcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#div-sugestoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-sugestoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap 10px
+}
+
+aside{
+    background-color: brown;
+    border-right: 1px solid black;
+    min-height: 100vh;
+    padding: 5px;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: brown;
+}
