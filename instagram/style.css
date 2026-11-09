@@ -6,6 +6,7 @@
 #container{
     display: flex;
     flex-direction: row;
+    min-height: 100vh;
 }
 
 #div-perfil{
@@ -22,6 +23,82 @@
     flex-direction: row;
     align-items: center;
     gap: 2px;
+}
+
+#div-inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+#div-inicio nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+nav img{
+    width: 25px;
+    height: 25px;
+}
+
+.img-footer{
+    width: 20px;
+    height: 20px;
+}
+
+input{
+    border-radius: 5px;
+    min-height: 25px;
+    min-width: 200px;
+    border: 1px solid grey;
+}
+
+#new-post img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+#new-post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#new-post:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(214, 41, 118, 0.35);
+}
+
+main{
+    padding: 10px;
+    flex: 1;
+    min-width: 0;
+}
+
+#settings{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+#logoff{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
 }
 
 .foto-sugestao{
@@ -43,7 +120,6 @@
 #div-stats{
     display: flex;
     flex-direction: row;
-    border: 2px solid black;
     gap: 20px;    
 }
 
@@ -69,6 +145,7 @@
     display: flex;
     flex-direction: column;
     align-items: start;
+    gap: 10px;
 }
 
 #div-sugestoes{
@@ -81,7 +158,30 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap 10px
+    gap: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+#div-direita{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+#div-direita nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 aside{
@@ -89,10 +189,38 @@ aside{
     border-right: 1px solid black;
     min-height: 100vh;
     padding: 5px;
+    box-sizing: border-box;
 }
 
 footer{
-    position: sticky;
+    position: fixed;
     bottom: 0;
     background-color: brown;
+    z-index: 1000;
+    margin-bottom: 5px;
+}
+
+#stories{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    background-color: blue;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.div-stories{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-stories{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 2px solid white;
 }
