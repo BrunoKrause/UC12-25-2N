@@ -188,12 +188,16 @@ aside{
     background-color: brown;
     border-right: 1px solid black;
     min-height: 100vh;
+    min-width: 40vh;
     padding: 5px;
+    justify-content: space-between;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 footer{
-    position: fixed;
+    position: sticky;
     bottom: 0;
     background-color: brown;
     z-index: 1000;
@@ -201,7 +205,7 @@ footer{
 }
 
 #stories{
-    padding: 50px;
+    padding: 20px 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -223,4 +227,70 @@ footer{
     border-radius: 50%;
     background-color: gray;
     border: 2px solid white;
+}
+
+.publi{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+}
+
+.img-publi{
+    min-width: 80vh;
+    height: 70vh;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.infos-publi{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-publi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.perfil-publi{
+    width: 5vh;
+    height: 5vh;
+    background-color: gray;
+    border-radius: 50%;
+    border: 2px solid purple;
+}
+
+.conjunto-publi{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.nome-publi{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.comentarios-publi{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+.comentario-publi{
+    display: flex;
+}
+
+.perfil-comentario{
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
 }
