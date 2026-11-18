@@ -7,6 +7,30 @@
 
 }
 
+#atuacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 30%;
+}
+
+.area__descricao{
+    text-align: justify;
+    line-height: 2.0;
+}
+
+.area__logo{
+    height: 80px;
+}
+
 .botao__contato{
     padding: 10px;
 }
@@ -20,6 +44,23 @@
     width: 100%;
     min-height: 500px;
     object-fit: cover;
+}
+
+#diferenciais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px 10px;
+}
+
+.diferencial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc((100% - 20px) / 2);
+    max-width: 40%;
 }
 
 #equipe{
@@ -45,6 +86,11 @@ header{
     height: 100px;
 }
 
+main{
+    background-color: grey;
+    height: 100%;
+}
+
 .menu{
     display: flex;
     align-items: center;
@@ -63,7 +109,33 @@ header{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#servicos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px 10px;
+    flex-wrap: wrap;
+    background-color: red;
+    padding: 20px 0px;
+}
+
+.servico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+    width: calc((100% - 20px) / 3);
+    box-sizing: border-box;
+    max-width: 25%;
+}
+
+.servico__descricao{
+    font-size: 18px;
+}
+
 section{
-    padding: 20px;
-    scroll-margin-top: 120px;
+    margin: 60px 20px;
+    scroll-margin-top: 180px;
 }
