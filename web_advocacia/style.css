@@ -35,9 +35,19 @@
     padding: 10px;
 }
 
+.colaboradores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .colaborador{
     background-color: aqua;
-    max-width: 300px;
+    max-width: 20%;
+    width: calc((100% - 30px) / 3);
+    
 }
 
 .colaborador__foto{
@@ -129,9 +139,9 @@
 
 #equipe{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    gap: 30px;
 }
 
 #form-contato {
